@@ -1,0 +1,124 @@
+.figma-icon {
+    height: 36px;
+    width: 36px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .figma {
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: "Space Grotesk";
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+    min-width: 52px;
+  }
+  .item-figma {
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 8px 15px;
+    background-color: #121212;
+    box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.04);
+    border-radius: 1000px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .item-figma:hover {
+    background-color: #454545;
+    border: 1px solid rgba(230, 230, 230, 0.5);
+    box-sizing: border-box;
+  }
+  .jira-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+  }
+  .webflow-icon,
+  .webflow-item {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .webflow-item {
+    height: 56px;
+    width: 56px;
+    box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.04);
+    border-radius: 1000px;
+    background: linear-gradient(#0b2f63, #0b2f63), rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 7px;
+    z-index: 1;
+    margin-left: -13px;
+  }
+  .webflow-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+  }
+  .firebolt-item,
+  .item-firebolt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .firebolt-item {
+    height: 56px;
+    width: 56px;
+    box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.04);
+    border-radius: 1000px;
+    background-color: #4353ff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 7px;
+    z-index: 2;
+    margin-left: -13px;
+  }
+  .firebolt-icon {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .action-icon,
+  .figma-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .action-icon {
+    height: 56px;
+    width: 56px;
+    box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.04);
+    border-radius: 1000px;
+    background-color: #af1217;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 8px 7px;
+    z-index: 3;
+    margin-left: -13px;
+    
+  }
+  .figma-item {
+    z-index: 1;
+  }
+  

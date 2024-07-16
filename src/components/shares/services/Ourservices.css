@@ -1,0 +1,126 @@
+.our-mission-is1,
+.our-services1 {
+  align-self: stretch;
+  position: relative;
+}
+.our-services1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 92px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.our-mission-is1 {
+  height: 64px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #f0eef2;
+  display: inline-block;
+}
+.services-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.with-visualize-you1 {
+  align-self: stretch;
+  height: 72px;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 36px;
+  font-family: Sk-Modernist;
+  color: #667085;
+  display: none;
+}
+.lets-talk1 {
+  position: relative;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  font-family: "Space Grotesk";
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  min-width: 81px;
+}
+.talk-button {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 8px 18px;
+  background-color: transparent;
+  width: 120px;
+  box-shadow: 0 0 4px 1px rgba(255, 255, 255, 0.04);
+  border-radius: 1000px;
+  background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(255, 255, 255, 0.02),
+      rgba(255, 255, 255, 0) 21%
+    ),
+    radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(255, 255, 255, 0.02),
+      rgba(255, 255, 255, 0) 19%
+    ),
+    radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0)
+    ),
+    #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.talk-button:hover {
+  background-color: #e6e6e6;
+  border: 1px solid rgba(230, 230, 230, 0.5);
+  box-sizing: border-box;
+}
+.services-title-parent {
+  width: 550px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 48px;
+  min-width: 550px;
+}
+.services-block,
+.services-content,
+.services-title-parent,
+.services1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.services-content {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+.services-block,
+.services1 {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.services-block {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 136px 72px;
+}
+.services1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 116px;
+  text-align: left;
+  font-size: 76px;
+  color: #fff;
+  font-family: "Space Grotesk";
+}

@@ -1,0 +1,240 @@
+.worklink {
+  display: flex;
+  align-items: center;
+  margin-left: 50px; 
+  cursor: pointer;
+}
+
+.parent {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.navi,
+.men {
+  position: absolute;
+  border-radius: 1.61px;
+  width: 22.5px;
+  height: 22.5px;
+  overflow: hidden;
+}
+
+.navi {
+  top: 0.01px;
+  left: 19.82px;
+  background-color: #9d4edd;
+  transform: rotate(44deg);
+  transform-origin: 0 0;
+}
+
+.men {
+  margin: 0;
+  top: 11.9px;
+  left: 0;
+  border: 2.4px solid #040404;
+  box-sizing: border-box;
+  z-index: 1;
+  background-color: #9d4edd;
+}
+  
+.pingoware2 {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 91px;
+}
+.footer-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.address-here,
+.post-code-or {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+}
+.address-here {
+  min-width: 115px;
+}
+.post-code-or {
+  height: 28px;
+}
+.address,
+.footer-left-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.address {
+  justify-content: flex-start;
+  gap: 2px;
+  color: #aeaeae;
+}
+.footer-left-parent {
+  height: 124px;
+  justify-content: space-between;
+  padding: 0 387px 0 0;
+  box-sizing: border-box;
+  min-width: 653px;
+  max-width: 100%;
+}
+.about,
+.services2,
+.works {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 54px;
+}
+.services2,
+.works {
+  min-width: 72px;
+}
+.works {
+  min-width: 53px;
+}
+.link-list {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.instagram {
+  min-width: 86px;
+}
+.instagram,
+.linkedin,
+.twitter {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+}
+.twitter {
+  text-decoration: none;
+  color: inherit;
+  min-width: 60px;
+}
+.linkedin {
+  min-width: 73px;
+}
+.link-list1 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.footer-links,
+.footer-top {
+  display: flex;
+  flex-direction: row;
+}
+.footer-links {
+  width: 291px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 133px;
+  min-width: 291px;
+  color: #f0eef2;
+}
+.footer-top {
+  align-self: stretch;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.copyright-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+}
+.agency-name-2023 {
+  position: relative;
+  line-height: 28px;
+}
+.rights {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 39px 0 0;
+  max-width: 100%;
+}
+.privacy-policy {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 103px;
+  white-space: nowrap;
+}
+.rights1 {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 39px 0 0;
+}
+.label {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  min-width: 42px;
+}
+.copyright,
+.legal {
+  justify-content: flex-start;
+}
+.legal {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 39.5px;
+  max-width: 100%;
+}
+.copyright {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 19px;
+  font-size: 16px;
+  color: #aeaeae;
+}
+.copyright,
+.footer,
+.footer-content {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.footer-content {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 72px;
+}
+.footer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 30px 72px 100px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Space Grotesk";
+  background-color: #0B0B0B;
+}

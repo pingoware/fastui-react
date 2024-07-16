@@ -1,0 +1,45 @@
+.pingoware1 {
+    color: #9d4edd;
+  }
+  .get-to-know-container {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 80%;
+    line-height: 96px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .frame-wrapper,
+  .get-to-know {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .get-to-know {
+    flex: 1;
+    border-radius: 46px;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    padding: 61px 39px 62px;
+    position: relative;
+    z-index: 1;
+  }
+  .frame-wrapper {
+    align-self: stretch;
+    border-radius: 46px 46px 0 0;
+    background-color: #0B0B0B;
+    overflow: hidden;
+    padding: 146px 60px 107px;
+    z-index: 3;
+    margin-top: -48px;
+    text-align: center;
+    font-size: 76px;
+    color: #fff;
+    font-family: "Space Grotesk";
+  }

@@ -1,0 +1,156 @@
+.feature-icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .marketing {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    line-height: 132%;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .we-bring-products {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.05px;
+    line-height: 28px;
+    color: #f0eef2;
+  }
+  .feature-description {
+    gap: 8px;
+  }
+  .feature-description,
+  .feature-list,
+  .feature-row {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .feature-row {
+    gap: 24px;
+  }
+  .feature-list {
+    border-radius: 32px;
+    border: 1px solid rgba(109, 109, 109, 0.5);
+    overflow: hidden;
+    padding: 30px 31px;
+  }
+  .frame-icon {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .design3 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    line-height: 132%;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 103px;
+  }
+  .we-bring-products1 {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.05px;
+    line-height: 28px;
+    color: #f0eef2;
+  }
+  .design-parent {
+    gap: 8px;
+  }
+  .design-parent,
+  .feature-list1,
+  .frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent2 {
+    gap: 24px;
+  }
+  .feature-list1 {
+    border-radius: 32px;
+    border: 1px solid rgba(109, 109, 109, 0.5);
+    overflow: hidden;
+    padding: 30px 31px;
+  }
+  .frame-icon1 {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .development3 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    line-height: 132%;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .we-bring-products2 {
+    align-self: stretch;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.05px;
+    line-height: 28px;
+    color: #f0eef2;
+  }
+  .development-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .frame-parent3 {
+    align-self: stretch;
+    gap: 24px;
+  }
+  .feature-list2,
+  .fitur,
+  .frame-parent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .feature-list2 {
+    align-self: stretch;
+    border-radius: 32px;
+    border: 1px solid rgba(109, 109, 109, 0.5);
+    overflow: hidden;
+    padding: 30px 31px;
+  }
+  .fitur {
+    width: 634px;
+    gap: 20px;
+    min-width: 634px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 32px;
+    color: #fff;
+    font-family: "Space Grotesk";
+  }
