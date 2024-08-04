@@ -15,6 +15,9 @@ const config = {
     name: "@storybook/react-vite",
     options: {},
   },
+  core: {
+    builder: '@storybook/builder-vite', // 👈 The builder enabled here.
+  },
   async viteFinal(config) {
     return mergeConfig(config, {
       plugins: [react()],

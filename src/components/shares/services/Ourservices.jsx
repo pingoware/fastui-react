@@ -1,34 +1,30 @@
-import React from 'react'
-import './Ourservices.css'
-import Marketing from './Marketing'
+import React from 'react';
+import Marketing from './Marketing';
 
-function Ourservices() {
+
+
+
+function Ourservices({ features, mission }) {
   return (
-    <div className='services1'>
-      <div className="services-block">
-        <div className="services-content">
-          <div className="services-title-parent">
-            <div className="services-title">
-              <h1 className="our-services1">Our Services</h1>
-              <div className="our-mission-is1">
-                Our mission is to help start-ups and companies reduce software
-                development costs and accelerate their time to market
-              </div>
-            </div>
-            <div className="with-visualize-you1">
-              With Visualize, you don't need any prior editing experience. Our
-              user-friendly interface and intuitive controls make it simple to
-              get started
-            </div>
-            <button className="talk-button">
-              <div className="lets-talk1">Let’s Talk</div>
+    <section className="flex flex-col items-center justify-center min-h-screen bg-[#0B0B0B] py-8 text-white font-space-grotesk">
+      <div className="container mx-auto px-4 lg:px-20">
+        <div className="flex flex-col items-center text-center lg:flex-row lg:items-start lg:text-left lg:space-x-16">
+          <div className="mb-12 lg:mb-0 lg:w-1/2">
+            <h1 className="text-3xl font-bold lg:text-6xl">Our Services</h1>
+            <p className="mt-4 text-lg text-gray-300 lg:text-xl">
+              {mission}
+            </p>
+            <button className="mt-6 inline-block rounded-full border border-white px-8 py-3 text-base font-medium text-black bg-white hover:bg-gray-300 lg:mt-8 lg:text-lg">
+              Let’s Talk
             </button>
           </div>
-          <Marketing />
+          <div className="lg:w-1/2">
+            <Marketing features={features} />
+          </div>
         </div>
       </div>
-    </div>
-  )
+    </section>
+  );
 }
 
-export default Ourservices
+export default Ourservices;

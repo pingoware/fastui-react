@@ -29,4 +29,4 @@ function Figma(props) {
   )
 }
 
-export default Figma
+export default React.memo(Figma) 
