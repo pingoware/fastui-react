@@ -38,7 +38,7 @@ function Firstscreen(props) {
           <div className="flex flex-col pt-10">
             <button className="flex flex-row items-center justify-center border border-white px-8 py-3 bg-transparent rounded-full z-20 gap-1 hover:bg-gray-400 cursor-pointer">
               <div className="relative text-lg leading-[28px] font-semibold">
-                Our stories
+                See our work
               </div>
               <div className="flex flex-col pt-1">
                 <img className="w-[24px] h-[24px]" alt="" src="/play.svg" />

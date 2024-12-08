@@ -1,5 +1,5 @@
 import React from 'react';
-import Figma from './Figma';
+import { Link } from 'react-router-dom';
 
 function Projecthome(props) {
   return (
@@ -27,13 +27,17 @@ function Projecthome(props) {
               <button className="border border-white/50 py-2 px-4 md:py-2 md:px-6 bg-transparent shadow-md rounded-full hover:bg-gray-800">
                 <div className="text-sm md:text-lg font-medium">Maintenance</div>
               </button>
-              <Figma ele={props.ele} />
+              <img src="/Fram.png" alt="" />
             </div>
             
-            <button className="border border-white/50 py-2 px-4 md:py-2 md:px-6 bg-white text-black shadow-md rounded-full flex items-center gap-2 hover:bg-gray-200">
+            <button >
+              <Link
+                to={`/project/${props.id}`}
+                className="border border-white/50 py-2 px-4 md:py-2 md:px-6 bg-white text-black shadow-md rounded-full flex items-center gap-2 hover:bg-gray-200">
               <div className="text-sm md:text-lg font-medium">View Project</div>
               <img className="w-5 h-5 md:w-6 md:h-6" src="/arrowupright.svg" alt="arrow icon" />
-            </button>
+            </Link>
+          </button>
           </div>
         </div>
       </section>

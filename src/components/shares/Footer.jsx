@@ -1,18 +1,13 @@
 import React from 'react';
 
-const Footer = (
-  {
-    Address,
-    Postcode,
-    AllRightReserved,
-    linkInstagram,
-    linkTwitter,
-    linkLinkedIn
-  }
-) => {
-
+const Footer = ({
+  Address,
+  Postcode,
+  AllRightReserved,
+  linkLinkedIn
+}) => {
   return (
-    <footer className="bg-[#0B0B0B] text-white font-space-grotesk p-8" id="about-us" >
+    <footer className="bg-[#0B0B0B] text-white font-space-grotesk p-8" id="about-us">
       <div className="container mx-auto flex flex-col lg:flex-row lg:justify-between lg:items-start space-y-8 lg:space-y-0">
         <div className="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-8">
           <div className="flex items-center space-x-4 cursor-pointer">
@@ -27,25 +22,26 @@ const Footer = (
             <div className="leading-7">{Postcode}</div>
           </div>
         </div>
+        
         <div className="flex flex-col lg:flex-row lg:space-x-16 text-[#f0eef2]">
           <div className="flex flex-col space-y-4">
-            <div className="leading-7 cursor-pointer" >About</div>
-            <div className="leading-7 cursor-pointer" >Services</div>
-            <div className="leading-7 cursor-pointer">Works</div>
+            <div className="leading-7 cursor-pointer">About</div>
+            <div className="leading-7 cursor-pointer">Services</div>
+
           </div>
           <div className="flex flex-col space-y-4">
-            <div className="leading-7 cursor-pointer">Instagram</div>
-            <div className="leading-7 cursor-pointer" >Twitter</div>
-            <div className="leading-7 cursor-pointer" >LinkedIn</div>
+          <div className="leading-7 cursor-pointer">Works</div>
+            <a href={linkLinkedIn} className="leading-7 cursor-pointer" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
       </div>
+      
       <div className="container mx-auto mt-8 text-[#aeaeae] text-sm">
         <div className="border-t border-[#ffffff33] pt-4 flex flex-col lg:flex-row lg:justify-between">
           <div className="pb-4 lg:pb-0">{AllRightReserved}</div>
           <div className="flex flex-col lg:flex-row lg:space-x-8">
-            <div className="pb-4 lg:pb-0 lg:border-r lg:border-[#ffffff33] lg:pr-8 cursor-pointer" >Privacy Policy</div>
-            <div>Label</div>
+            <div className="pb-4 lg:pb-0 lg:border-r lg:border-[#ffffff33] lg:pr-8 cursor-pointer">Privacy Policy</div>
+            <div>Terms of Service</div>
           </div>
         </div>
       </div>
